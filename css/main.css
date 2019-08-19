@@ -9,8 +9,12 @@ section#header {
   font-family: var(--fuenteSecundaria);
 }
 
-#header div.logo {
+#header div.headers {
+  margin: 0 5em;
+}
 
+#header div.logo {
+  margin-left: 0;
 }
 
 .logo img {
