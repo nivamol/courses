@@ -24,10 +24,13 @@ section#header {
 
 div.categorias {
   display: flex;
+  margin-left: .5em;
+  font-family: var(--fuentePrincipal);
+  font-size: 1.3em;
 }
 
 .categorias span {
-
+  margin-right: .7em;
 }
 
 .categorias p {
