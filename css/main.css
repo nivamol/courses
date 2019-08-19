@@ -1,6 +1,7 @@
 section#header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #header div.logo {
@@ -8,11 +9,12 @@ section#header {
 }
 
 .logo img {
-
+  height: 70px;
+  width: 90px;
 }
 
 div.categorias {
-
+  display: flex;
 }
 
 .categorias span {
@@ -20,7 +22,7 @@ div.categorias {
 }
 
 .categorias p {
-
+  margin: 0;
 }
 
 div.buscar {
