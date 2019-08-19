@@ -1,13 +1,13 @@
 :root {
   --fuentePrincipal: 'Roboto', sans-serif;;
   --fuenteSecundaria: 'Lato', sans-serif;
-
 }
 
 section#header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: var(--fuenteSecundaria);
 }
 
 #header div.logo {
