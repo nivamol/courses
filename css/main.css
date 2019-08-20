@@ -8,6 +8,7 @@ section#header {
   justify-content: space-between;
   align-items: center;
   font-family: var(--fuenteSecundaria);
+  font-size: 1.2em;
 }
 
 #header div.headers {
@@ -26,7 +27,6 @@ div.categorias {
   display: flex;
   margin-left: .5em;
   font-family: var(--fuentePrincipal);
-  font-size: 1.3em;
 }
 
 .categorias span {
@@ -60,7 +60,6 @@ div.instructor {
 }
 
 .instructor p {
-
 }
 
 div.cursos {
