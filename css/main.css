@@ -5,12 +5,12 @@
 
 section#header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   font-family: var(--fuenteSecundaria);
 }
 
 #header div.headers {
-  margin: 0 5em;
 }
 
 #header div.logo {
@@ -37,12 +37,14 @@ div.categorias {
   margin: 0;
 }
 
-div.buscar {
-
+div.headers .buscar {
+  margin: 0;
 }
 
 .buscar input {
-
+  font-family: var(--fuentePrincipal);
+  padding: 1em 5em;
+  font-size: .7em;
 }
 
 .buscar span {
