@@ -1,8 +1,7 @@
 :root {
-  --fuentePrincipal: 'Roboto', sans-serif;;
+  --fuentePrincipal: 'Roboto', sans-serif;
   --fuenteSecundaria: 'Lato', sans-serif;
   --colorPrimario: #1A00FF;
-  
 }
 
 section#header {
@@ -147,4 +146,8 @@ div.curso-3 {
 
 
 
+
+.botones span:hover {
+  color: var(--colorPrimario);
+}
 
