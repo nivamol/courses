@@ -79,7 +79,6 @@ div.botones {
 }
 
 section#hero {
-
 }
 
 #hero div#titulos {
@@ -87,7 +86,6 @@ section#hero {
 }
 
 #titulos div.titulos {
-
 }
 
 .titulos p {
@@ -96,7 +94,12 @@ section#hero {
 
 
 section#hero div.cursos {
+  display: flex;
+  text-align: center;
+}
 
+.cursos .cursitos {
+  flex: 1;
 }
 
 .cursos div.curso-1 {
