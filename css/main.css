@@ -1,6 +1,8 @@
 :root {
   --fuentePrincipal: 'Roboto', sans-serif;;
   --fuenteSecundaria: 'Lato', sans-serif;
+  --colorPrimario: #1A00FF;
+  
 }
 
 section#header {
