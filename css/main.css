@@ -52,7 +52,11 @@ div.headers .buscar {
 }
 
 div.instructor {
+  
+}
 
+.instructor span {
+  margin-left: .4em;
 }
 
 .instructor p {
