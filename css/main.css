@@ -80,6 +80,7 @@ div.botones {
 }
 
 section#hero {
+  background-color: #fdfdfdd5;
 }
 
 #hero div#titulos {
@@ -87,6 +88,7 @@ section#hero {
   font-family: var(--fuentePrincipal);
   font-size: 1.2em;
   margin: 5em;
+  margin-bottom: 0;
 }
 
 #titulos div.titulos {
@@ -107,10 +109,33 @@ section#hero {
 section#hero div.cursos {
   display: flex;
   text-align: center;
+
 }
 
 .cursos .cursitos {
   flex: 1;
+  font-family: var(--fuentePrincipal);
+  font-size: 1em;
+}
+
+.cursitos button {
+  padding: .8em 2.5em;
+  border-radius: 30px;
+  background-color: var(--colorPrimario);
+  color: white;
+  font-size: 1.1em;
+}
+
+.cursitos button:hover {
+  background-color: black;
+  color: white;
+  transition: .6s;
+}
+
+.cursos img {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
 }
 
 .cursos div.curso-1 {
