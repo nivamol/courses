@@ -174,12 +174,14 @@ div.curso-3 {
 
 .botones span:hover {
   color: var(--colorPrimario);
+  transition: 1s;
 }
 
 
 section.buy {
   display: flex;
-  margin-top: 3em;
+  margin-top: 4em;
+  box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.23);
 }
 
 .buy div.titulos-2 {
@@ -204,7 +206,6 @@ div.titulos-principales-2 {
 div.compras {
   flex: 1;
   box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.23);
-  border-radius: 20px;
   margin: 0 1em;
   text-align: center;
   height: 400px;
@@ -213,7 +214,6 @@ div.compras {
 .compras img {
   width: 100%;
   height: 180px;
-  border-radius: 20px 20px 0 0;
   text-align: start;
 }
 
