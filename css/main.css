@@ -109,7 +109,6 @@ section#hero {
 section#hero div.cursos {
   display: flex;
   text-align: center;
-
 }
 
 .cursos .cursitos {
@@ -147,7 +146,6 @@ section#hero div.cursos {
 }
 
 .curso-1 p {
-
 }
 
 div.curso-2 {
@@ -205,7 +203,7 @@ div.titulos-principales-2 {
 
 div.compras {
   flex: 1;
-  border: 1px solid black;
+  box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.23);
   border-radius: 20px;
   margin: 0 1em;
   text-align: center;
@@ -222,7 +220,6 @@ div.compras {
 .compras p {
   font-family: var(--fuentePrincipal);
   font-size: .9em;
-  text-align: start;
 }
 
 .compras img.stars {
@@ -238,6 +235,13 @@ div.compras {
   padding: .8em 2em;
   font-size: 1em;
   margin-bottom: 1em;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.compras button:hover {
+  background-color: var(--colorPrimario);
 }
 
 div.compra-cursos-1 {
